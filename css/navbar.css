@@ -1,0 +1,29 @@
+.navbar{
+  z-index: 2;
+  align-items: center;
+  color: white;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  height: 40px;
+  border-bottom: 1px solid #464646;
+}
+.navbar-links{
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.navbar-icons{
+  display: flex;
+  gap: 20px;
+  filter: invert(1);
+}

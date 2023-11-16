@@ -1,0 +1,46 @@
+.hero{
+  position: relative;
+  background-color: #232323;
+  opacity: 0.95;
+  height: 100%;
+  width: 100%;
+}
+.hero-overlay{
+  position: absolute;
+  background-color: #0e0e0e;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.hero-image{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 10 10px rgb(0, 0, 0);
+  border-radius: 30px; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.hero-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+.hero-text-h1{
+  font-size: 38px;
+  line-height: 40px;
+  margin: 0 auto 3px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+.hero-text-span{
+  color: #888888;
+  font-weight: 400;
+}

@@ -1,0 +1,25 @@
+@import './navbar.css';
+@import './hero.css';
+
+*{
+  font-family:"myriad-pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "niveau-grotesk", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  outline: 0;
+  list-style: none;
+}
+
+body{ /* reset */
+  position: relative;
+  background: #f2ece5;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;  
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+} 
