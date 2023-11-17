@@ -1,0 +1,24 @@
+.grand-card{
+  height: 672px;
+  width: 987px;
+  padding: 91px;
+  top: -300px;
+  background-color: #f7f7f7;
+  position: absolute;
+  z-index: 3;
+}
+.grand-card-grid{
+  column-gap: 30px;
+  row-gap: 23px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  color: #808080;
+}
+.grid-cell{
+  display: flex;
+  font-size: 14px;
+  border-bottom:1px solid #cfcfcf;
+}
+.grid-cell-span{
+  padding-bottom: 10px;
+}

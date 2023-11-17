@@ -1,0 +1,13 @@
+.first-section{
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: flex;
+  background-color: #f7f7f7;
+}
+.first-section-card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

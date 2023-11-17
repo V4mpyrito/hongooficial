@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   z-index: 2;
   align-items: center;
   color: white;
@@ -11,19 +11,54 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px;
+  padding: 20px 35px;
   height: 40px;
   border-bottom: 1px solid #464646;
 }
-.navbar-links{
+
+.navbar-links {
+  cursor: pointer;
   background: transparent;
   display: flex;
   justify-content: center;
   width: 100%;
+  font-weight: 100;
+  font-size: 14px;
   gap: 20px;
 }
+
+.navbar-links li {
+  position: relative;
+}
+
+.navbar-links span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #e4e4e4;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-links span:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  filter: invert(1);
+}
+
 .navbar-icons{
   display: flex;
   gap: 20px;
+  font-size: 13px;
   filter: invert(1);
 }

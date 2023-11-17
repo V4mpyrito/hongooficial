@@ -1,11 +1,21 @@
 @import './navbar.css';
 @import './hero.css';
+@import './top-brands.css';
+@import './first-section.css';
+@import './sideCard.css';
+@import './Product.css';
+@import './paralax.css';
+@import './second-section.css';
+@import './grand-card.css';
+@import './third-section.css';
+@import './fourth-section.css';
+@import './fifth-section.css';
+@import './footer.css';
+/* fonts */
+@import url('https://fonts.cdnfonts.com/css/niveau-grotesk-regular');
 
 *{
-  font-family:"myriad-pro", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-family: "niveau-grotesk", sans-serif;
+  font-family: 'Niveau Grotesk', sans-serif;
   font-style: normal;
   font-weight: normal;
   outline: 0;
@@ -14,7 +24,7 @@
 
 body{ /* reset */
   position: relative;
-  background: #f2ece5;
+  background: #f7f7f7;
   margin: 0;
   padding: 0;
   border: 0;

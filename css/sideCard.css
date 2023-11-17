@@ -1,0 +1,107 @@
+.sideCard{
+  height: 581px;
+  width: 390px;
+  background-image: url(../img/watch-36.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.sideCard2{
+  height: 581px;
+  width: 390px;
+  background-image: url(../img/watch-37.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.sideCard-overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.301);
+  position: absolute;
+  z-index: 1;
+}
+.sideCard-miniCard{
+  z-index: 2;
+  width: 850;
+  height: 457;
+  background: white;
+}
+.sideCard-miniCard-button{
+  width: 100%;
+  height: 42px;
+  background-color: #b88b5f;
+  border: 1px solid #b88b5f;
+  color: white;
+  font-size: 13px;
+  padding: 12px 30px;
+  line-height: 14px;
+  transition:  all 0.3s ease-in-out;
+  &:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+  }
+}
+
+.sideCard3{
+  height: 445px;
+  width: 345px;
+  background-image: url(../img/watch-32.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sideCard4{
+  height: 445px;
+  width: 345px;
+  background-image: url(../img/watch-34.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.sideCard5{
+  height: 445px;
+  width: 345px;
+  background-image: url(../img/watch-35.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.sideCard6{
+  height: 445px;
+  width: 345px;
+  background-image: url(../img/watch-33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

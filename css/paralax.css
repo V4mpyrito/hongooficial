@@ -1,0 +1,47 @@
+.parallax-container {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-section {
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+.parallax-container-2 {
+  height: 538px;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-section-2 {
+  height: 538px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+
+.parallax-section-1 {
+  background-image: url("../img/watch-38.jpg"); /* Reemplaza 'imagen1.jpg' con la URL de tu imagen */
+  z-index: 0;
+}
+.parallax-section-2 {
+  background-image: url("../img/watch-39.jpg"); /* Reemplaza 'imagen1.jpg' con la URL de tu imagen */
+  z-index: 0;
+}
+
+.parallax-overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.692);
+  position: absolute;
+  z-index: 1;
+}
